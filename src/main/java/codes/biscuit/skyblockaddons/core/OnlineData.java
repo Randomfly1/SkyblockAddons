@@ -4,6 +4,7 @@ import lombok.Getter;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 @Getter
 public class OnlineData {
@@ -22,6 +23,11 @@ public class OnlineData {
 
     private DropSettings dropSettings;
 
+    private Set<String> maxEnchantments4;
+
+    private Set<String> maxEnchantments6;
+
+    
     @Getter
     public static class DropSettings {
 
