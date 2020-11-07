@@ -26,7 +26,6 @@ public class OnlineData {
     private Set<String> maxEnchantments4;
 
     private Set<String> maxEnchantments6;
-
     
     @Getter
     public static class DropSettings {
