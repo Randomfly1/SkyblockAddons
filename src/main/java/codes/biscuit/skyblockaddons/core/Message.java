@@ -156,6 +156,7 @@ public enum Message {
     SETTING_HIDE_WHEN_NOT_IN_SPIDERS_DEN(MessageObject.SETTING, "hideWhenNotInSpidersDen"),
     SETTING_HIDE_WHEN_NOT_IN_CASTLE(MessageObject.SETTING, "hideWhenNotInCastle"),
     SETTING_DUNGEON_DEATH_COUNTER(MessageObject.SETTING, "dungeonDeathCounter"),
+    SETTING_ENCHANTMENTS_HIGHLIGHT(MessageObject.SETTING, "enchantmentsHighlight"),
     SETTING_SHOW_PERSONAL_COMPACTOR_PREVIEW(MessageObject.SETTING, "showPersonalCompactorPreview"),
     SETTING_SHOW_DUNGEON_TEAMMATE_NAME_OVERLAY(MessageObject.SETTING, "dungeonsTeammateNameOverlay"),
     SETTING_DISABLE_MORT_MESSAGES(MessageObject.SETTING, "disableMortMessages"),
