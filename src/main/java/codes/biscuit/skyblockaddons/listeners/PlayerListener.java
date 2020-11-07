@@ -900,10 +900,10 @@ public class PlayerListener {
                                 } catch (Exception ignored) { } // Ignore the parse error and assume the level is 0
                             }
                             if (main.getConfigValues().isEnabled(Feature.ENCHANTMENTS_HIGHLIGHT)
-                                && (
+                               /* && (
                                         (level == 4 && !main.getOnlineData().getMaxEnchantments4().contains(enchantment))
                                     ||  (level == 6 && !main.getOnlineData().getMaxEnchantments6().contains(enchantment))
-                                    )) {
+                                    ))*/ {
                                 sb.append("§6");
                             } else {
                                 sb.append("§9");
