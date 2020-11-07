@@ -162,7 +162,6 @@ public enum Feature {
     HIDE_WHEN_NOT_IN_CASTLE(135, null, false),
 
     DUNGEON_DEATH_COUNTER(136, Message.SETTING_DUNGEON_DEATH_COUNTER, new GuiFeatureData(EnumUtils.DrawType.TEXT, ColorCode.RED), true),
-    ENCHANTMENTS_HIGHLIGHT(137, Message.SETTING_ENCHANTMENTS_HIGHLIGHT, null, false),
     SHOW_PERSONAL_COMPACTOR_PREVIEW(137, null, false),
 
     ROCK_PET_TRACKER(138, "settings.rockPetTracker", new GuiFeatureData(EnumUtils.DrawType.TEXT, ColorCode.GRAY), true),
@@ -183,6 +182,7 @@ public enum Feature {
 
     HIDE_OTHER_PLAYERS_PRESENTS(150, "settings.hideOtherPlayersPresents", null,false),
     EASIER_PRESENT_OPENING(151, "settings.easierPresentOpening", null,false),
+    ENCHANTMENTS_HIGHLIGHT(152, Message.SETTING_ENCHANTMENTS_HIGHLIGHT, null, false),
 
     WARNING_TIME(-1, Message.SETTING_WARNING_DURATION, false),
 
